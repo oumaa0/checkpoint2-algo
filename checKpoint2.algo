@@ -1,0 +1,21 @@
+ALGORITHM algorithm_name
+VAR
+set1: ARRAY_OF INTEGER[4];
+set2: ARRAY_OF INTEGER[5];
+i,j:INTEGER;
+s=0
+set1:=[3, 1, 7, 9]
+Set2:=[2, 4, 1, 9, 3]
+BEGIN
+FOR i FROM 0 TO set1.lenght-1 STEP 1  DO
+FOR j FROM 0 TO set2.lenght-1 STEP 1  DO
+REPEAT
+read(i)
+UNTIL ()
+IF (set1[i] NOT in set2[j]) THEN
+s:=s+set1[i]
+END_IF
+END_FOR
+//our sum
+write(s)
+END
